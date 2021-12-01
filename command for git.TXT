@@ -1,0 +1,22 @@
+touch .gitignore
+//This touch .gitignore is folder where we wirte the name of file whcih we dont want to upload on github since they slow down the downloading & Uploading the pull req//
+
+git config --global user.nam Kdhere
+git config --global user.email vithaldev33@gmai.com
+git init
+git add .
+git commit --m "Initial Commit"
+git status //Just to see whether our file is uploaded or not//
+
+$ ssh-keygen -t rsa -b 4096 -C "vithaldev33@gmail.com"
+
+tail <path to id_rsa.pub>
+//paste this key to your Github account.
+
+git remote add origin <ssh url.git>
+git push origin master
+
+
+
+
+
